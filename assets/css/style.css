@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     font-size: 280%;
     line-height: 75px;
+    margin-left: 30px;
 
 }
 
@@ -51,4 +52,38 @@ h1, h2 {
 .active {
     border-bottom: 1px solid red;
 }
+
+/* hero image */
+
+#hero-image {
+    padding-top: 300px;
+    padding-bottom: 400px;
+    width: 100%;
+    background:url('../images/hero-image.jpg')
+}
+
+#welcome {
+    text-align: center;
+    font-size: 200%;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:black
+
+
+}
+
+.about {
+    background-color: aqua;
+    background-image: url('../images/drink-image.jpg');
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    font-size: 250%;
+    
+    
+
+}
+
+
 
