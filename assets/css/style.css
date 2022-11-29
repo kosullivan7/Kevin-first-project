@@ -20,3 +20,22 @@ h1, h2 {
     letter-spacing: 4px;
     color: #252525;
 }
+
+#logo {
+    font-size: 280%;
+
+}
+
+.nav-list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-right: 30px;
+}
