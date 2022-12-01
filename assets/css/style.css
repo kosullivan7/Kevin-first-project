@@ -84,6 +84,12 @@ h1, h2 {
     
 }
 
+#find {
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(214, 152, 105);
+}
+
 .p {
     display: inline-block;
     margin-block-start: 1em;
