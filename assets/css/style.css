@@ -65,10 +65,10 @@ h1, h2 {
 #welcome {
     text-align: center;
     font-size: 200%;
-    background-color: white;
+    background-color: rgb(214, 152, 105);
     padding-bottom: 30px;
     padding-top: 30px;
-    color:black
+    color: #3a3a3a
 
 
 }
@@ -81,13 +81,28 @@ h1, h2 {
     text-align: center;
     font-size: 250%;
     
+    
+}
+
+.p {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /* footer */
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    margin-top: 10px;
     height: 100px;
-    background-color: orange;
+    background-color: rgb(214, 152, 105);
+    border-top: solid 4px 
 }
 
 .social-networks {
@@ -95,14 +110,17 @@ footer {
 }
 
 .social-networks li {
-    display: inline;
+    display: inline-block;
+    margin-right: 25px;
 }
 
+
 .social-networks i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 3%;
+    font-size: 250%;
+    margin: 2%;
+    padding-right: 3%;
     color: #3a3a3a;
+    
 }
 
 
