@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300px;
-    color: red
+    color: #3a3a3a#
 }
 
 /* headings and logo */
@@ -74,15 +74,24 @@ h1, h2 {
 }
 
 .about {
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: #3a3a3a
+}
+
+.about {
+    background-color: black;
     background-image: url('../images/drink-image.jpg');
-    padding-top: 300px;
     padding-bottom: 300px;
+    padding-top: 100px;
     text-align: center;
     font-size: 250%;
     
-    
 }
+
+
 
 #find {
     text-align: center;
@@ -109,6 +118,13 @@ footer {
     height: 100px;
     background-color: rgb(214, 152, 105);
     border-top: solid 4px 
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 150%;
 }
 
 .social-networks {
