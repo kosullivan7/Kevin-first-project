@@ -40,6 +40,7 @@ h1, h2 {
     gap: 2rem;
     font-size: 150%;
     letter-spacing: 4px;
+    text-align: center;
     
     
     
@@ -124,7 +125,7 @@ h1, h2 {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 15px;
     margin-top: 10px;
     height: 100px;
@@ -137,6 +138,7 @@ footer {
     flex-direction: row;
     justify-content: flex-start;
     font-size: 150%;
+    
 }
 
 .social-networks {
@@ -154,7 +156,7 @@ footer {
     margin: 2%;
     padding-right: 3%;
     color: #3a3a3a;
-    
+
 }
 
 
