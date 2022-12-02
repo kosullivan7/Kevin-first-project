@@ -104,7 +104,7 @@ h1, h2 {
     
 }
 
-
+/* Find us section*/
 
 #find {
     text-align: center;
@@ -119,6 +119,9 @@ h1, h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
+
 
 /* footer */
 
@@ -156,6 +159,45 @@ footer {
     margin: 2%;
     padding-right: 3%;
     color: #3a3a3a;
+
+}
+
+
+/* menu page */
+
+#photos {
+     display: inline-flex;
+     width:100%
+    padding: 5px;
+    
+    
+    
+}
+
+
+
+
+/* menu page */
+
+#box-container {
+    height: 900px;
+    display: flex;
+    
+
+}
+
+#box-1 {
+width: 50%;
+height: 50%;
+background-color: rgb(214, 152, 105);
+text-align: center;
+
+}
+
+#box-2 {
+width: 50%;
+height: 50%;
+background-color: aqua;
 
 }
 
