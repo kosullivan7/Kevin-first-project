@@ -84,6 +84,14 @@ a.menu {
   font-size: 25px;
   color: white;
 }
+
+#contact {
+  text-align: center;
+  height: 100px;
+  font-size: 25px;
+  background-color: rgb(214, 152, 105);
+}
+
 #about h1, #about h2, #welcome h1, #menu-title {
     color: white !important;
     padding-top: 10px;
