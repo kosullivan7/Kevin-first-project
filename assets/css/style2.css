@@ -26,6 +26,10 @@ body {
     float: left;
     padding: 15px;
   }
+
+  .row {
+    background-color: rgb(214, 152, 105);
+  }
 /* headings and logo */
 
 .header {
@@ -57,7 +61,7 @@ a.menu {
 }
 
 #welcome{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(214, 152, 105);
     text-align: center;
     color: white;
 }
@@ -70,7 +74,7 @@ a.menu {
     background-repeat: no-repeat;
     height: 300px;
     text-align: center;
-    color: white ;
+    color: grey ;
     
 }
 #about h1, #about h2, #welcome h1{
