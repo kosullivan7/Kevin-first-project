@@ -90,9 +90,18 @@ a.menu {
   height: 100px;
   font-size: 25px;
   background-color: rgb(214, 152, 105);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-#about h1, #about h2, #welcome h1, #menu-title {
+#google-maps {
+  text-align: center;
+  
+  font-size: 25px;
+
+}
+
+#about h1, #about h2, #welcome h1, #menu-title, #contact, #google-maps {
     color: white !important;
     padding-top: 10px;
     padding-bottom: 10px;
