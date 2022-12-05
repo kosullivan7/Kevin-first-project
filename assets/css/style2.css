@@ -124,10 +124,18 @@ fieldset {
 }
 
 .contact_us_form {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   height: 200px;
   border-style: double;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 120px;
+}
+
+.text-input {
+  padding: 1.5em;
 }
 
 #about-header {
