@@ -127,7 +127,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 200px;
+  height: 250px;
   border-style: double;
   letter-spacing: 0.2em;
   width: 80%;
@@ -135,12 +135,33 @@ fieldset {
 }
 
 .text-input {
-  padding: 1.5em;
+  padding: 1.0em;
+  margin-left: 30%;
+  margin-right: 30%;
+  
 }
+
+#message {
+  margin-right: 30%;
+  margin-left: 20%;
+}
+
+.submit-button {
+  background-color: gray;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10px;
+  
+  color: whitesmoke;
+  
+}
+
 
 #about-header {
   text-align: center;
 }
+
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
