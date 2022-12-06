@@ -166,7 +166,7 @@ fieldset {
 /* back to top arrow located after menu section */
 
 .back-to-top {
-  text-align: center;
+  text-align: left;
   margin-right: 10px;
   font-size: 160%;
 }
@@ -202,13 +202,29 @@ hr {
 #footer-left-panel {
   float: left;
   text-align: left;
+  margin-left: 12px;
 }
 
 #footer-center-panel {
   display: inline-block;
   margin: 0 auto;
   text-align: left;
+ 
+}
 
+#footer-right-panel {
+  float: right;
+  text-align: left;
+  
+}
+
+.social-media {
+  text-align: left;
+  
+}
+
+.social-media li {
+  display: inline;
 }
 
 
