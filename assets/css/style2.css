@@ -194,9 +194,21 @@ hr {
   margin-bottom: 0.625rem;
 }
 
+.footer-text {
+  font-size: 90%;
+  font-weight: 600;
+}
+
 #footer-left-panel {
   float: left;
   text-align: left;
+}
+
+#footer-center-panel {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+
 }
 
 
