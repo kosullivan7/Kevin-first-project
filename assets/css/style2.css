@@ -163,6 +163,14 @@ fieldset {
   text-align: center;
 }
 
+/* back to top arrow located after menu section */
+
+.back-to-top {
+  text-align: center;
+  margin-right: 10px;
+  font-size: 160%;
+}
+
 
 /* footer section */
 
