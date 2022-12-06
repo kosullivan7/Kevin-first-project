@@ -166,7 +166,7 @@ fieldset {
 /* back to top arrow located after menu section */
 
 .back-to-top {
-  text-align: left;
+  text-align: center;
   margin-right: 10px;
   font-size: 160%;
 }
@@ -221,10 +221,18 @@ hr {
 .social-media {
   text-align: left;
   
+  
 }
 
 .social-media li {
   display: inline;
+  margin-right: 20px;
+  
+}
+
+#find-us-heading {
+  text-decoration: underline;
+  padding-left:  40px;
 }
 
 
