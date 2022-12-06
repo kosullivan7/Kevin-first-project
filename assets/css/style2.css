@@ -177,6 +177,8 @@ fieldset {
 footer {
   height: 12.1rem;
   padding-top: 1rem;
+  border-top: 1px solid black;
+  border-top-width: thick;
 }
 
 #footer-group {
