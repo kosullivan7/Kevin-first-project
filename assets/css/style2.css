@@ -78,7 +78,7 @@ a.menu {
     background-repeat: no-repeat;
     height: 300px;
     text-align: center;
-    color: blue;
+   
     
 }
 
@@ -87,7 +87,6 @@ a.menu {
   height: 100px;
   font-size: 25px;
   color: white;
-  height: 100px;
   font-size: 50px;
   
 }
@@ -134,25 +133,52 @@ fieldset {
   display: flex;
   flex-direction: column;
   text-align: center;
-  height: 250px;
+  height: 350px;
   border-style: double;
   letter-spacing: 0.2em;
   width: 80%;
   margin-left: 120px;
 }
 
+#about-header {
+  text-align: center;
+  height: 100px;
+  font-size: 50px;
+  color: white;
+}
+
 .text-input {
   padding: 1.0em;
   margin-left: 30%;
   margin-right: 30%;
+  margin-bottom: 2%;
+  margin-top: 2%;
   border: 0.1rem solid gray;
+  width: 350px;
+  height: 20px;
+  box-shadow: 0 0 10px 1px;
+  border-radius: 10px;
   
 }
+
+.text-input:hover {
+
+background-color: aquamarine;
+}
+
 
 #message {
   margin-right: 30%;
   margin-left: 20%;
   border: .2rem solid gray;
+  margin-top: 2%;
+  height: 70px;
+  width: 450px;
+  
+}
+
+#message:hover {
+  background-color: aquamarine;
 }
 
 .submit-button {
@@ -160,15 +186,24 @@ fieldset {
   margin-left: 40%;
   margin-right: 40%;
   margin-top: 10px;
+  margin-bottom: 10px;
   border: .1rem solid whitesmoke;
   color: whitesmoke;
+  border-radius: 10px;
+  height: 50px;
+  font-size: medium;
   
 }
 
-
-#about-header {
-  text-align: center;
+.submit-button:hover {
+  border: 5px solid maroon;
 }
+
+.submit-button:visited {
+  border-color: pink;
+}
+
+
 
 /* back to top arrow located after menu section */
 
@@ -176,6 +211,7 @@ fieldset {
   text-align: center;
   margin-right: 10px;
   font-size: 160%;
+  margin-top: 2%;
 }
 
 
