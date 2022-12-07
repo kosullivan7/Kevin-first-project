@@ -41,14 +41,18 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    
 }
+
 
 a.menu {
     text-decoration: none;
     color: black;
+    
 }
 .menu-item{
     text-align: right;
+    
  }
 
  #hero-image {
@@ -74,7 +78,7 @@ a.menu {
     background-repeat: no-repeat;
     height: 300px;
     text-align: center;
-    color: grey ;
+    color: blue;
     
 }
 
@@ -83,6 +87,9 @@ a.menu {
   height: 100px;
   font-size: 25px;
   color: white;
+  height: 100px;
+  font-size: 50px;
+  
 }
 
 /* Contact us section*/
@@ -179,6 +186,7 @@ footer {
   padding-top: 1rem;
   border-top: 1px solid black;
   border-top-width: thick;
+  
 }
 
 #footer-group {
