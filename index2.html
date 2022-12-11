@@ -7,9 +7,7 @@
     <meta name="description" content="Donoghues cocktail bar in Galway, Ireland">
     <meta name="keywords" content="Donoghues, bar, Galway, cocktail, ireland">
     <link rel="stylesheet" href="assets/css/style2.css">
-         
     <title>Donoghues Bar</title>
-    
 </head>
 <body>
     <div class="row">
@@ -41,14 +39,15 @@
 
     </div>
     <div class="row" id="hero-image">
-
     </div>
-    <div class="row" id="welcome">
+    <!-- <div class="row" id="welcome">
         <h1> Welcome</h1>
-    </div>
+    </div> -->
     <div class="row" id="about">
-        <h1> About us</h1>
-        <h2>Newly opened in the heart of Galway, Donoghues is the perfect intimate gathering place for an after-work catch-up, romantic date or late night party! So call in, take a comfy seat and settle in for an enjoyable experience. </h2>
+        <div class="overlay">
+            <h1> Welcome</h1>
+            <h2>Newly opened in the heart of Galway, Donoghues is the perfect intimate gathering place for an after-work catch-up, romantic date or late night party! So call in, take a comfy seat and settle in for an enjoyable experience. </h2>
+        </div>
     </div>
     <!--font awesome script-->
 
@@ -59,7 +58,7 @@
     <div class="row" id="menu">
         <div class="col-3">
             <div class="col-12">
-                <img src="./assets/images/drink-image8.jpg" style="width: 100%; position:relative;" />
+                <img src="./assets/images/drink-image8.jpg" class="menu-image">
             </div>
             <div class="col-12">
                 Title:    Mojito
@@ -70,7 +69,7 @@
         </div>
         <div class="col-3">
             <div class="col-12">
-                <img src="./assets/images/drink-image5.jpg" style="width: 100%; position:relative;" />
+                <img src="./assets/images/drink-image5.jpg"class="menu-image">
             </div>
             <div class="col-12">
                 Title:   Bloody Mary
@@ -81,7 +80,7 @@
         </div>
         <div class="col-3">
             <div class="col-12">
-                <img src="./assets/images/drink-image6.jpg" style="width: 100%; position:relative;" />
+                <img src="./assets/images/drink-image6.jpg" class="menu-image">
             </div>
             <div class="col-12">
                 Title: Blue Hawaiian
@@ -91,20 +90,21 @@
             </div>
         </div>
         <div class="col-3">
-        <div class="col-12">
-            <img src="./assets/images/drink-image2.jpg" style="width: 100%; position:relative;" />
-        </div>
-        <div class="col-12">
-            Title:  Tequila Sunrise
-        </div>
-        <div class="col-12">
-            Recipe: orange juice, grenadine, tequila, pomegranate juice
+            <div class="col-12">
+                <img src="./assets/images/drink-image2.jpg" class="menu-image">
+            </div>
+            <div class="col-12">
+                Title:  Tequila Sunrise
+            </div>
+            <div class="col-12">
+                Recipe: orange juice, grenadine, tequila, pomegranate juice
+            </div>
         </div>
     </div>
-    <div class="row" id="menu">
+    <div class="row" id="menu2">
         <div class="col-3">
             <div class="col-12">
-                <img src="./assets/images/drink-image12.jpg" style="width: 100%; position:relative;" />
+                <img src="./assets/images/drink-image12.jpg" class="menu-image">
             </div>
             <div class="col-12">
                 Title:     Mushroom Manhattan
@@ -115,7 +115,7 @@
         </div>
         <div class="col-3">
             <div class="col-12">
-                <img src="./assets/images/drink-image9.jpg" style="width: 100%; position:relative;" />
+                <img src="./assets/images/drink-image9.jpg" class="menu-image">
             </div>
             <div class="col-12">
                 Title:     White Russian
@@ -126,7 +126,7 @@
         </div>
         <div class="col-3">
             <div class="col-12">
-                <img src="./assets/images/drink-image11.jpg" style="width: 100%; position:relative;" />
+                <img src="./assets/images/drink-image11.jpg" class="menu-image">
             </div>
             <div class="col-12">
                 Title:  Southside Fizz
@@ -136,102 +136,94 @@
             </div>
         </div>
         <div class="col-3">
-        <div class="col-12">
-            <img src="./assets/images/drink-image10.jpg" style="width: 100%; position:relative;" />
+            <div class="col-12">
+                <img src="./assets/images/drink-image10.jpg" class="menu-image">
+            </div>
+            <div class="col-12">
+                Title:   Winter whiskey sour
+            </div>
+            <div class="col-12">
+                Recipe:  bourbon, lemon juice, orange juice, syrup  
+            </div>
         </div>
-        <div class="col-12">
-            Title:   Winter whiskey sour
-        </div>
-        <div class="col-12">
-            Recipe:  bourbon, lemon juice, orange juice, syrup  
-        </div>
-    </div>
-
-    
-    
-    <div class="row" id="contact"><h2></h2>
-        
     </div>
 
     <!--Form goes here--> 
-    <section class="form-section">
-    <fieldset>
+    <div class="row" id="contact">
         <h1 id="about-header">Contact Us</h1>
-        <form method="post" action="https://formdump.codeinstitute.net/" class="contact_us_form" target="_blank">
-        <h3>If you would like to make a reservation or have a query please contact us:</h3>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" class="text-input" required>
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email_address" class="text-input" required>
-        <label for="message">Your message</label>
-        <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
-        <input type="submit" class="submit-button" value="Send">
-    </form>
-    
-    </fieldset>
-
-    </section>
-
-    <div class="back-to-top">Back to top
-        <a href="/" class="menu" aria-label="back-to-top"><i class="fa-sharp fa-solid fa-arrow-up" aria-hidden="true"></i></a>
-
+        <form method="post" action="https://formdump.codeinstitute.net/"  target="_blank">
+            
+                <h3>If you would like to make a reservation or have a query please contact us:</h3>
+                <div class="col-12">
+                    <div class="col-4">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" id="name" name="name" class="text-input" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="col-4">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-8">
+                        <input type="text" id="email" name="email_address" class="text-input" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="col-4">
+                        <label for="message">Your message</label>
+                    </div>
+                    <div class="col-8">
+                        <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                    </div>
+                </div>
+                <input type="submit" class="submit-button" value="Send">
+        </form>
     </div>
 
-    <footer>
-         
-        <div id="footer-group">
-        <div id="footer-left-panel">
-            <h3>Opening hours  <i class="fa-regular fa-clock"></i></h3>
-            <hr>
-            <ul id="opening-times" class="footer-text">
-            <li>Monday: 12:00-23.30</li>
-            <li>Tuesday: 12:00-23.30</li>
-            <li>Wednesday: 12:00-23.30</li>
-            <li>Thursday: 12:00-02.00</li>
-            <li>Friday: 12:00-02.00</li>
-            <li>Saturday: 12:00-02.00</li>
-            <li>Sunday: 12:00-02.00</li>
+    <div class="back-to-top">Back to top
+        <a href="/" class="menu" aria-label="back-to-top">
+            <i class="fa-sharp fa-solid fa-arrow-up" aria-hidden="true"></i>
+        </a>
+    </div>
 
-            </ul>
+    <div class="row">
+        <div class="col-4">
+            Opening hours
+            <div class="col-12"><ul>
+             <li>Monday: 12.00-23.30</li>
+             <li>Monday: 12.00-23.30</li>
+             <li>Monday: 12.00-23.30</li>
+             <li>Monday: 12.00-23.30</li>
+             <li>Monday: 12.00-23.30</li>
+             <li>Monday: 12.00-23.30</li>
+             <li>Monday: 12.00-23.30</li>
+
+            </ul></div>
         </div>
+        <div class="col-4">
+            <div class="col-12"> Find Us</div>
+            <div class="col-3"><a href="https://goo.gl/maps/XUzyEMgz31gi2frX9" target="_blank" rel="noopener"
+                aria-label="Find us on a map"><i class="fa-solid fa-location-dot fa-2xl"></i></a></div>
+            <div class="col-3"><a href="https://facebook.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook fa-2xl"></i></a></div>
 
-        <div id="footer-right-panel">
-            <h3>Address  <i class="fa-solid fa-building" aria-hidden="true"></i></h3>
-            <hr>
-            <p class="footer-text">2 Abbeygate Street Upper<br>Galway<br></p>
+            <div class="col-3"><a href="https://twitter.com" target="_blank" rel="noopener" 
+                aria-label="Visit our Twitter page (opens in a  new tab)"><i class="fa-brands fa-twitter fa-2xl"></i></a></div>
+            <div class="col-3"><a href="https://instagram.com" target="_blank" rel="noopener" 
+                aria-label="Visit our instagram page (opens in a  new tab)"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></div>
 
-        </div>
-
-        <div id="footer-center-panel">
-            <h3 id="find-us-heading">Find Us</h3><br>
-            <ul class="social-media">
-                <li><a href="https://goo.gl/maps/XUzyEMgz31gi2frX9" target="_blank" rel="noopener"
-                aria-label="Find us on a map"><i class="fa-solid fa-location-dot fa-2xl"></i></a></li>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener" 
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-            <li><a href="https://twitter.com" target="_blank" rel="noopener" 
-                aria-label="Visit our Twitter page (opens in a  new tab)"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener" 
-                aria-label="Visit our instagram page (opens in a  new tab)"><i class="fa-brands fa-square-instagram fa-2xl"></i></a></li>
-            
-        </ul>
-        </div>
-
-        </div>
-
-        </footer>
+        
     
-    
-    
-    
+    </div>
 
-   
-    
+    <div class="col-4">
+        Address
+        <div class="col-12">2 Abbeygate Street Upper<br>Galway</div>
+    </div>
 
+    
     <script src="https://kit.fontawesome.com/21f5211252.js" crossorigin="anonymous"></script>
-
-
-    
-    
 </body>
 </html>

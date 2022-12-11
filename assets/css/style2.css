@@ -9,7 +9,8 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300px;
-    color: #3a3a3a
+    color: #3a3a3a;
+    background-color: rgb(214, 152, 105);
 }
 
 * {
@@ -76,16 +77,13 @@ a.menu {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
+    height: auto;
     text-align: center;
-   
-    
 }
 
 #menu-title {
   text-align: center;
   height: 100px;
-  font-size: 25px;
   color: white;
   font-size: 50px;
   
@@ -95,8 +93,7 @@ a.menu {
 
 #contact {
   text-align: center;
-  height: 100px;
-  font-size: 25px;
+  font-size: large;
   background-color: rgb(214, 152, 105);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -113,6 +110,11 @@ a.menu {
     color: white !important;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.menu-image{
+  width: 100%;
+  position:relative;
 }
 
 /* form section */
@@ -149,16 +151,11 @@ fieldset {
 
 .text-input {
   padding: 1.0em;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 2%;
-  margin-top: 2%;
   border: 0.1rem solid gray;
-  width: 350px;
+  width: 100%;
   height: 20px;
   box-shadow: 0 0 10px 1px;
   border-radius: 10px;
-  
 }
 
 .text-input:hover {
@@ -168,13 +165,11 @@ background-color: aquamarine;
 
 
 #message {
-  margin-right: 30%;
-  margin-left: 20%;
   border: .2rem solid gray;
   margin-top: 2%;
   height: 70px;
-  width: 450px;
-  
+  width: 100%;
+  resize: none;
 }
 
 #message:hover {
@@ -183,8 +178,6 @@ background-color: aquamarine;
 
 .submit-button {
   background-color: gray;
-  margin-left: 40%;
-  margin-right: 40%;
   margin-top: 10px;
   margin-bottom: 10px;
   border: .1rem solid whitesmoke;
@@ -192,6 +185,7 @@ background-color: aquamarine;
   border-radius: 10px;
   height: 50px;
   font-size: medium;
+  width: 60%;
   
 }
 
@@ -282,11 +276,28 @@ hr {
   padding-left:  40px;
 }
 
+.overlay{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#about .overlay{
+  height: 570px;
+}
+#about .overlay h1{
+  padding-top: 90px;;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
     border: 1px solid;
+}
+
+@media screen and (min-width: 650px) {
+.footer {
+  display: block;
+}
+
 }
   
   @media only screen and (min-width: 600px) {
@@ -303,6 +314,10 @@ hr {
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
+
+    #about .overlay{
+      height: 450px;
+    }
   }
   @media only screen and (min-width: 768px) {
     /* For desktop: */
