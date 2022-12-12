@@ -185,7 +185,7 @@ background-color: aquamarine;
   border-radius: 10px;
   height: 50px;
   font-size: medium;
-  width: 60%;
+  width: 30%;
   
 }
 
@@ -285,6 +285,16 @@ hr {
 }
 #about .overlay h1{
   padding-top: 90px;;
+}
+
+.footer-head {
+  text-align: center;
+  text-shadow: 1px 1px 1px #3a3a3a;
+  padding-bottom: 1px;
+}
+
+.footer-text {
+  text-align: center;
 }
 
 /* For mobile phones: */
