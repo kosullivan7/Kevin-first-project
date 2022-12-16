@@ -227,4 +227,4 @@ drinkimage12k from pexels by Ash Edmonds
 
 **Acknowledgments –**
 
-I would like to thank my project mentor Antonio for his advice on website design and responsivity. Also thank you to the Code Institute tutors and those on slack for their help.
+I would like to thank my project mentor Antonio for his advice on website design and media queries. Also thank you to the Code Institute tutors and those on slack for their help.
